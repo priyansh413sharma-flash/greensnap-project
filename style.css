@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    width: 99vw;
+}
+.navbar{
+    width: 100vw;
+    height: 15vh;
+    background-color:#2E7D32;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar img{
+    width: 10vw;
+    height: 17vh;
+    border-radius: 50%;
+}
+@media (max-width:600px) {
+    .navbar img{
+    width: 10vw;
+    height: 15vh;
+}
+}
+.a{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    gap: 0;
+}
+#msd{
+    color: white;
+}
+#vk{
+    color: orange;
+}
+.b{
+    display: flex;
+    gap: 4vw;
+    padding-top: 2vh;
+    font-size: 22px;
+    align-items: center;
+}
+.b a{
+    text-decoration: none;
+    color: white;
+}
+.b button{
+    width: 170px;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    border-radius: 12px;
+}
+.b button:hover, b button:active{
+    transform: translateY(-5px);
+}   
+@media (max-width: 768px) {
+
+  .nav{
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .nav img{
+    width: 80px;
+    height: 80px;
+  }
+
+  .a{
+    justify-content: center;
+  }
+
+  .b{
+    flex-wrap: wrap;
+    gap: 15px;
+    font-size: 18px;
+    padding-top: 10px;
+    justify-content: center;
+  }
+
+  .b button{
+    width: 140px;
+    height: 38px;
+    font-size: 18px;
+  }
+}
+.part{
+    width: 99vw;
+    height: 85vh;
+    display: flex;
+     align-items: center; 
+  justify-content: center; 
+}
+.part img{
+    width: 50vw;
+    height: 83vh;
+    background-color: white;
+}
+.h{
+     display: flex;
+  flex-direction: column;   
+  justify-content: center;   
+  align-items: center;       
+  text-align: center;
+  gap: 0.5vw;
+}
+.h h1{
+    font-size: 4vw; 
+    text-align: center;
+    color: #2E7D32;
+}
+.h p{
+    font-size: 2vw; 
+    text-align: center;
+    color: #000000;
+}
+.h button{
+    width: 170px;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    border-radius: 12px;
+}
+.h button:hover, .h button:active{
+    transform: translateY(-5px);
+}   
