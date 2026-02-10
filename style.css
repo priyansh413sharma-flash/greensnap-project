@@ -131,4 +131,48 @@ body{
 }
 .h button:hover, .h button:active{
     transform: translateY(-5px);
+
 }   
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .a {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .a img {
+        width: 40px;
+        height: auto;
+    }
+    .b {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2px;
+    }
+    .b a {
+        font-size: 16px;
+    }
+    .b button {
+        width: 140px;
+    }
+    .part {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+    .part img {
+        width: 220px;
+        margin-bottom: 20px;
+    }
+    .h h1 {
+        font-size: 28px;
+    }
+    .h p {
+        font-size: 14px;
+    }
+}
